@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main">
+        <nav class="">
+          <div
+            class="container d-flex justify-content-between pt-5 pb-4 px-5 text-white"
+          >
+            <div class="d-flex">
+              <div><img class="logo mx-2" src="imgs/logo@2x.png" alt="" /></div>
+              <div class="">
+                <div class=""><h3 class="logomain">Weather</h3></div>
+                <div class=""><p class="logosub">elbes el jacket</p></div>
+              </div>
+            </div>
+            <div class="d-flex navbarlist">
+              <div><p class="homelist rounded-pill mx-3 px-4">Home</p></div>
+              <div><p class="rounded-pill mx-3 px-4">News</p></div>
+              <div><p class="rounded-pill mx-3 px-4">Live cameras</p></div>
+              <div><p class="rounded-pill mx-3 px-4">Photos</p></div>
+              <div><p class="rounded-pill mx-3 px-4">Contact</p></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="body">
+          <div class="container">
+            <div class="container p-5">
+              <form class="position-relative container" action="">
+                <input
+                  id="search"
+                  class="w-100 mt-5 search rounded-pill p-3 border-0"
+                  placeholder="Find your location"
+                  type="text"
+                />
+                <input
+                  class="position-absolute searchbtn rounded-pill border-0"
+                  type="submit"
+                  value="Find"
+                />
+              </form>
+            </div>
+            <div class="container p-5">
+              <div class="cubes row container px-5">
+                <div class="cube col-4 rounded-start-3 px-0">
+                  <div
+                    class="d-flex align-items-center justify-content-between px-3 rounded-start-3 cubehead"
+                  >
+                    <p class="m-0" id="thisdayname"></p>
+                    <p class="m-0 py-2" id="daydate"></p>
+                  </div>
+                  <div class="p-4">
+                    <h5 id="city"></h5>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h1 id="degree" class="degree"></h1>
+                      <img id="conditionicon" class="  " src="" alt="" />
+                    </div>
+                    <p id="condition" class="condition">cloudy</p>
+                    <div class="d-flex gap-4">
+                      <div class="d-flex gap-1">
+                        <img
+                          id=""
+                          class="icon"
+                          src="imgs/icon-umberella.png"
+                          alt=""
+                        />
+                        <p>20%</p>
+                      </div>
+
+                      <div class="d-flex gap-1">
+                        <img class="icon" src="imgs/icon-wind.png" alt="" />
+                        <p>18km/h</p>
+                      </div>
+
+                      <div class="d-flex gap-1">
+                        <img class="icon" src="imgs/icon-compass.png" alt="" />
+                        <p>east</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cube2 col-4 px-0">
+                  <div class="d-flex justify-content-center px-2 cubehead2">
+                    <p class="m-0 p-2" id="nextdayname"></p>
+                  </div>
+                  <div class="p-5 text-center">
+                    <div class="">
+                      <img
+                        id="conditionicon2"
+                        class="weathericon"
+                        src=""
+                        alt=""
+                      />
+                    </div>
+                    <div class="pt-4 text-white">
+                      <h4 id="maxtemp1"></h4>
+                    </div>
+                    <p id="mintemp1"></p>
+                    <p id="condition2" class="condition"></p>
+                  </div>
+                </div>
+                <div class="cube col-4 px-0 rounded-end-3">
+                  <div
+                    class="d-flex justify-content-center px-2 rounded-end-3 cubehead"
+                  >
+                    <p class="m-0 p-2" id="afternextdayname"></p>
+                  </div>
+                  <div class="p-5 text-center">
+                    <div class="">
+                      <img
+                        id="conditionicon3"
+                        class="weathericon"
+                        src=""
+                        alt=""
+                      />
+                    </div>
+                    <div class="pt-4 text-white">
+                      <h4 id="maxtemp2"></h4>
+                    </div>
+                    <p id="mintemp2"></p>
+                    <p id="condition3" class="condition"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class=" px-5 py-5     ">
+        <div class="container px-5  ">
+            <div class="container px-5 d-flex ">
+                <form class="position-relative container me-5 " action="">
+                    <input
+                      id="search" class="w-100 sub rounded-pill p-3 border-0" placeholder="Enter Your Email to Subscribe..." type="text"
+                    />
+                    <input
+                      class="position-absolute  subbtn rounded-pill border-0"
+                      type="submit"
+                      value="Subscribe"
+                    /></form>
+                <div class="social d-flex gap-1  ">
+                    <div class=" smallicon rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-lg fa-fw fa-facebook-f"></i>
+                    </div>
+                    <div class=" smallicon rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-lg fa-fw fa-twitter"></i>
+                    </div>
+                    <div class=" smallicon rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-lg fa-fw fa-google-plus-g"></i>
+                    </div>
+                    <div class=" smallicon rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-lg fa-fw fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-5 ">
+                <p class="p-3 copywrite ">Copyright 2014 Company name. Designed by Ahmed Sherif. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

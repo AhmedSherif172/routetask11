@@ -1,0 +1,130 @@
+.logomain{
+    font-size: 16px;
+}
+.logosub{
+    font-size: 10px;
+}
+.logo{
+    width: 70px;
+}
+nav{
+    background-color: #1E202B;
+}
+.navbarlist{
+    font-size: 14px;
+}
+.navbarlist p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.homelist{
+    border: 2px solid #009AD8 !important;
+    color: #009AD8 ;
+}
+.navbarlist p:hover{
+    border-color: #009AD8 ;
+    color: #009AD8 ;
+}
+.main{
+    min-height: 100vh;
+    background-color: #1E202B;    
+    background-position: center center;
+    background-size: cover;
+    
+}
+.body{
+    
+    background-image: url(../imgs/banner.png);
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.search{
+    background-color: #1E202B;
+    padding-right: 150px;
+    color: white;
+}
+.sub{
+    background-color: #1E202B;
+    color: white;
+}
+.search:focus{
+    outline: none;
+}
+.sub:focus{
+    outline: none;
+}
+.searchbtn{
+    right: 15px;
+    bottom: 5px;
+    padding: 12px 45px;
+    color: white;
+    background-color: #009AD8;
+}
+.subbtn{
+    right: 15px;
+    bottom: 5px;
+    padding: 12px 20px;
+    color: white;
+    background-color: #009AD8;
+}
+.cubes{
+    color: grey;
+}
+.cube{
+    background-color: #323544;
+}
+.cube2{
+    background-color: #262936;
+}
+.cubehead{
+    background-color: #2D303D;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.cubehead2{
+    background-color:#222531 ;
+}
+.degree{
+    font-size: 90px;
+    color: white;
+}
+.condition{
+    color: #009AD8;
+}
+.icon{
+    width: 23px;
+    height: 21px;
+}
+.weathericon{
+    width: 50px;
+}
+#conditionicon{
+    width: 90px;
+    height: 90px;
+}
+footer{
+    background-color: #262936;
+}
+.social{
+    margin-left: 150px;
+}
+.smallicon{
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B !important ;
+    color: #009AD8;
+    transition: 0.3s;
+    cursor: pointer;
+}   
+.smallicon:hover{
+    background-color: #009AD8 !important;
+    color: white;
+}
+.copywrite{
+    color: grey !important;
+    font-size: 14px;
+}
